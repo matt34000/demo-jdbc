@@ -6,6 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 public class TestConnexionJdbc {
+	
 	public static void main(String[] args) {
 		try {
 			Class.forName("org.mariadb.jdbc.Driver");
@@ -20,4 +21,5 @@ public class TestConnexionJdbc {
 			System.out.println("Connexion impossible à établir.");
 		}
 	}
+
 }
